@@ -1,0 +1,46 @@
+body{
+    background-color: cadetblue;
+}
+.App{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.boxes{
+    width: 99px;
+    height: 99px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 50px;
+}
+
+.boxes:hover{
+    background-color: rgb(1, 126, 53);
+}
+.row{
+    display: flex;
+}
+.reload-btn{
+    background-color: rgb(1, 126, 53);
+}
+ul{
+    list-style: none;
+}
+li{
+    border: 1px solid black;
+}
+li:hover{
+    background-color:rgb(1, 126, 53);
+    cursor: pointer;
+}
